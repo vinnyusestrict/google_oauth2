@@ -1,0 +1,26 @@
+{
+	"name" : "usestrict/google-oauth2",
+	"description" : "Simple library to handle Google tokens from WordPress.",
+	"license" : "GPL-3.0+",
+	"keywords" : [
+		"WordPress",
+		"google oauth2"
+	],
+	"authors" : [{
+			"name" : "Vinny Alves",
+			"email" : "vinny@usestrict.net",
+			"homepage" : "https://usestrict.net",
+			"role" : "Developer"
+		}
+	],
+	"require-dev" : {
+		"phpunit/phpunit" : "^6"
+	},
+	"require" : {
+	},
+	"autoload" : {
+		"psr-4" : {
+			"UseStrict\\Laminas\\Mail\\" : "src/"
+		}
+	}
+}
